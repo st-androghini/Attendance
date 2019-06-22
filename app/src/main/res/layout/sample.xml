@@ -7,33 +7,39 @@
     android:layout_height="match_parent"
     tools:context=".view.login.LoginActivity">
 
-
     <LinearLayout
         android:id="@+id/ll_main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textview"
+        <Button
+            android:id="@+id/alert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="로그인페이지"
+            android:text="alert"
         />
 
         <Button
-            android:id="@+id/btn_click_me"
+            android:id="@+id/confirm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"/>
-
-
+            android:text="confirm"
+        />
         <Button
-            android:id="@+id/btn_samplePage"
+            android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sample"/>
+            android:text="next"
+        />
+        <FrameLayout
+            android:id="@+id/fml_sample"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+        </FrameLayout>
     </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
